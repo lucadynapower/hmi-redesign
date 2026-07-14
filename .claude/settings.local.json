@@ -1,7 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(pyuic6 -x AlarmStatus.ui -o AlarmStatus.py)"
-    ]
-  }
-}
