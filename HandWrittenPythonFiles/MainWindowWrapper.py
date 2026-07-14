@@ -28,6 +28,16 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
         self.show_page("controls")
 
+    def resizeEvent(self, event):
+        super().resizeEvent(event)
+        if self.popup_menu.isVisible():
+            self._resize_popup_menu()
+
+    def _resize_popup_menu(self):
+        width = self.centralwidget.width() // 3
+        height = self.centralwidget.height()
+        self.popup_menu.setGeometry(0, 0, width, height)
+
     def show_page(self, name):
         self.pageStack.setCurrentWidget(self.pages[name])
 
@@ -35,9 +45,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.popup_menu.hide() if self.popup_menu.isVisible() else self._open_popup_menu()
 
     def _open_popup_menu(self):
-        width = self.centralwidget.width() // 3
-        height = self.centralwidget.height()
-        self.popup_menu.setGeometry(0, 0, width, height)
+        self._resize_popup_menu()
         self.popup_menu.show()
         self.popup_menu.raise_()
 
