@@ -7,7 +7,7 @@ class MainUI(QMainWindow):
         super(MainUI, self).__init__()
         
         loader = QUiLoader()
-        self.ui = loader.load("INSERT .UI FILE HERE",self)
+        self.ui = loader.load(r"C:\Users\lchayer\Documents\hmi-redesign\ControlsWidget.ui", self)
         self.ui.show()
 
 if __name__ == "__main__":

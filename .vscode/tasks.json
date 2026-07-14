@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Convert UI to PY (current file)",
+      "type": "shell",
+      "command": "uv",
+      "args": [
+        "run",
+        "pyside6-uic",
+        "${file}",
+        "-o",
+        "${fileDirname}/${fileBasenameNoExtension}_ui.py"
+      ],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "group": "build"
+    }
+  ]
+}

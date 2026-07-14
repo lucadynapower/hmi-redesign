@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>VerticalLayout</class>
+ <widget class="QWidget" name="VerticalLayout">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>385</width>
+    <height>676</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #D3D3D3;</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2" stretch="1,1,1,1,1,1,1">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QPushButton" name="CommandsButton">
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #6CA6CD;
+    border: 3px outset #4A7FA5;
+    border-radius: 3px;
+    color: black;
+}
+QPushButton:pressed {
+    border: 3px inset #4A7FA5;
+}</string>
+     </property>
+     <property name="text">
+      <string>Commands</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="FaultsButton">
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #6CA6CD;
+    border: 3px outset #4A7FA5;
+    border-radius: 3px;
+    color: black;
+}
+QPushButton:pressed {
+    border: 3px inset #4A7FA5;
+}</string>
+     </property>
+     <property name="text">
+      <string>Faults</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="AlarmsStatusButton">
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #6CA6CD;
+    border: 3px outset #4A7FA5;
+    border-radius: 3px;
+    color: black;
+}
+QPushButton:pressed {
+    border: 3px inset #4A7FA5;
+}</string>
+     </property>
+     <property name="text">
+      <string>Alarms + Status</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="MetersButton">
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #6CA6CD;
+    border: 3px outset #4A7FA5;
+    border-radius: 3px;
+    color: black;
+}
+QPushButton:pressed {
+    border: 3px inset #4A7FA5;
+}</string>
+     </property>
+     <property name="text">
+      <string>Meters</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="VFPQButton">
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #6CA6CD;
+    border: 3px outset #4A7FA5;
+    border-radius: 3px;
+    color: black;
+}
+QPushButton:pressed {
+    border: 3px inset #4A7FA5;
+}</string>
+     </property>
+     <property name="text">
+      <string>VF Tables (PQ)</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="VFUFButton">
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #6CA6CD;
+    border: 3px outset #4A7FA5;
+    border-radius: 3px;
+    color: black;
+}
+QPushButton:pressed {
+    border: 3px inset #4A7FA5;
+}</string>
+     </property>
+     <property name="text">
+      <string>VF Tables (UF)</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="CloseButton">
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #6CA6CD;
+    border: 3px outset #4A7FA5;
+    border-radius: 3px;
+    color: black;
+}
+QPushButton:pressed {
+    border: 3px inset #4A7FA5;
+}</string>
+     </property>
+     <property name="text">
+      <string>Close</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
