@@ -1,0 +1,18 @@
+# Virtual environment - regenerated via "uv sync" from pyproject.toml + uv.lock
+.venv/
+venv/
+
+#Screenshots and random files
+QTDesignerScreenshots/
+RandomFiles/
+
+#.claude and .vscode files
+*.claude
+*.vscode
+
+#CheckerFiles
+PopupChecker.py
+PopupSignalsChecker.py
+HMI_ReplicationGuide.pdf
+AlarmStatusChecker.py
+ControlsChecker.py
